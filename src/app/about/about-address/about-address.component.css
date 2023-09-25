@@ -1,0 +1,19 @@
+.address-wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin: 30px;
+}
+
+.address-text {
+
+}
+
+.address-map {
+
+}
+
+.address-map iframe {
+  border-radius: 40px;
+  border:0;
+}

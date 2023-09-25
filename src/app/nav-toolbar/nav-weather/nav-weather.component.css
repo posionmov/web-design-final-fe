@@ -1,0 +1,31 @@
+.weather-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  min-width: 300px;
+  padding-right: 25px;
+}
+
+.weather-button {
+  background-color: #1b2c46;
+  height: 50px;
+  color: #fff;
+  border-radius: 30px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+.weather-temperature {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-family: "Lucida Console", "Courier New", monospace;
+}
+
+.loader {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Lucida Console", "Courier New", monospace;
+}

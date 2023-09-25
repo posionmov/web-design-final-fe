@@ -1,0 +1,67 @@
+.container {
+
+}
+
+.field {
+  padding-bottom: 5px;
+}
+
+.contact-form-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: 250px;
+}
+
+.contact-form-container h1 {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.contact-form-container input {
+  color: #142033;
+  text-align: left;
+  background-color: #7fb45d21;
+  border-radius: 10px;
+  font-size: 20px;
+  text-indent: 10px;
+  width: 100%;
+  border-color: black;
+  border-style: solid;
+  padding: 0;
+  min-height: 40px;
+}
+
+.contact-form-container textarea {
+  color: #142033;
+  text-align: left;
+  background-color: #7fb45d21;
+  border-radius: 10px;
+  font-size: 20px;
+  text-indent: 10px;
+  width: 100%;
+  border-color: black;
+  border-style: solid;
+  border-width: 2px;
+  padding: 0;
+}
+
+
+.submit-btn {
+  background-color: #1b2c46;
+  width: 100%;
+  height: 50px;
+  color: #fff;
+  border-radius: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
+  cursor: pointer;
+  border-color: black;
+  border-style: solid;
+  border-width: 2px;
+}
+
+.submit-btn:disabled {
+  background-color: #7fb45d21;
+  color: black;
+  border-color: #7fb45d21;
+}

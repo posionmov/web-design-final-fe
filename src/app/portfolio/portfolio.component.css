@@ -1,0 +1,67 @@
+.carousel {
+  position: relative;
+  height: 600px;
+  width: 100%;
+}
+
+.slides {
+  height: 100%;
+  position: relative;
+}
+
+.slide {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  font-size: 3em;
+  color: white;
+  line-height: 400px;
+  text-align: center;
+  opacity: 0;
+  transition: opacity 1000ms;
+
+  display: grid;
+  overflow: hidden;
+}
+
+.active {
+  display: block;
+  opacity: 1 !important;
+}
+
+.indicators {
+  position: absolute;
+  bottom: 5px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+.indicator {
+  cursor: pointer;
+}
+
+.img-container {
+
+}
+
+.img-container img {
+  object-fit: cover;
+  width: 90%;
+  height: 90%;
+  padding: 30px;
+}
+
+.description {
+  position: absolute;
+  left: 10%;
+  opacity: 0;
+  bottom: 40px;
+
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 30px;
+  color: white;
+}

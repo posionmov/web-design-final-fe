@@ -1,0 +1,15 @@
+.toolbar-link {
+  cursor: pointer;
+  list-style-type: none;
+  background-color: #7fb45d21;
+
+  border-radius: 40px;
+  padding: 12px 24px;
+  font-size: 18px;
+  font-weight: 500;
+  transition: color .375s,background-color .375s;
+}
+
+.selected-route {
+  background-color: #98dc7ec4;
+}

@@ -1,0 +1,16 @@
+.home-questions-container {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  align-items: center;
+}
+
+.home-questions-container h1 {
+  margin: 0;
+  font-family: "Lucida Console", "Courier New", monospace;
+}
+
+.home-questions-button-container {
+  max-width: 300px;
+  min-width: 200px;
+}

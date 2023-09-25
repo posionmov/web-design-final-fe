@@ -1,0 +1,12 @@
+.videos-wrapper {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: space-evenly;
+}
+
+.element-wrapper h1 {
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+}

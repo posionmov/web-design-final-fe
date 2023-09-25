@@ -1,0 +1,15 @@
+.faq-block {
+  padding: 0 30px 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.faq-title {
+  font-family: "Lucida Console", "Courier New", monospace;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  align-items: center;
+}

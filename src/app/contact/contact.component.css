@@ -1,0 +1,6 @@
+.contact-wrapper {
+  display: flex;
+  flex-direction: row;
+  padding: 40px;
+  grid-column-gap: 10%;
+}
