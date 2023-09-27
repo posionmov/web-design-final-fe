@@ -8,6 +8,7 @@ import { Component } from '@angular/core';
       <div class="router-outlet">
         <router-outlet></router-outlet>
       </div>
+      <footer-component></footer-component>
     </div>
   `,
   styleUrls: ['./app.component.css']

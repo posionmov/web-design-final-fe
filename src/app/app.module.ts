@@ -30,6 +30,7 @@ import {AboutAddressComponent} from "./about/about-address/about-address.compone
 import {ToolbarWeatherComponent} from "./nav-toolbar/nav-weather/nav-weather.component";
 import {WeatherService} from "./nav-toolbar/nav-weather/nav-weather.service";
 import {HttpClientModule} from "@angular/common/http";
+import {FooterComponent} from "./footer/footer.component";
 
 @NgModule({
   declarations: [
@@ -56,6 +57,7 @@ import {HttpClientModule} from "@angular/common/http";
     VideoElementComponent,
     AboutAddressComponent,
     ToolbarWeatherComponent,
+    FooterComponent,
   ],
   imports: [
     BrowserModule,
